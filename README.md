@@ -40,37 +40,29 @@ The circuit was connected according to the diagram shown. The image of the circu
 I chose to use the [Adafruit IO](https://io.adafruit.com/) platform. This platform is cloud-based, easy to use and free at small scale. All these features enable rapid and cost-efficient development and prototyping.
 
 ## The code
-The code consists of multiple files. The main file, main.py, that contains the logic and then there are multiple files that handles specific functionality or contains sensitive information.
+The code consists of multiple files. The main file, main.py, that contains the logic and then there are multiple files that handles specific functionality or contains sensitive information. 
+
+### main.py
 
 ```
-from measure import Sensor
-from connect import do_connect
-from secrets import secrets_wifi
-from time import sleep
-from dashboard import Dashboard
-from machine import Pin
-
-led = Pin("LED", Pin.OUT)
-
 # Frequency of updates, in seconds.
 FREQUENCY = 60
+```
 
+```
 # Turning the onboard led on.
 led.on()
+```
 
+```
 # Connecting to WiFi.
 try:
     ip = do_connect(secrets_wifi["ssid"], secrets_wifi["password"])
 except KeyboardInterrupt:
     print("Keyboard interrupt")
+```
 
-# Defining sensor and dashboard objects.
-sensor = Sensor()
-dashboard = Dashboard()
-
-#Connecting to the dashboard.
-dashboard.connect()
-
+```
 try:
     
     # Looping forever, measuring and sending data.
