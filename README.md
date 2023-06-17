@@ -11,6 +11,8 @@ I chose to build this project as I thought it sounded interesting and useful. Th
 
 ## Material
 
+All parts were bought at Electrokit.com. I bought them as parts in a kit, but they are available to buy seperately and that is the price that is listed.
+
 | Part | Description | Price |
 | --- | --- | --- |
 | Raspberry Pi Pico WH | The microcontroller that is running the code | SEK 109 |
@@ -19,3 +21,8 @@ I chose to build this project as I thought it sounded interesting and useful. Th
 | DHT11 Sensor | The sensor that measures the temperature and humidity | SEK 49 |
 | Male-male jumper wires | Used to connect the components on the breadboard | SEK 49 |
 
+## Computer setup
+I chose Thonny as my IDE in this project. The Pico is flashed with MicroPython. This is done by downloading the firmware 
+
+### Flashing the Pico with MicroPython
+1. The firmware is downloaded from [here](https://micropython.org/download/rp2-pico-w/).
