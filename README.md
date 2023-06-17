@@ -98,3 +98,6 @@ The data is visualized in a dashboard on the Adafruit IO platform. The dashboard
 ![Dashboard](https://github.com/lohant/temperatureandhumidity/blob/main/dashboard.png)
 
 ## Finalizing the design
+This picture shows the final result. This project could be improved in multiple ways, the first thing I would do is probably solder the components together and designing a custom case for it. This would make it tougher and more compact, as well as making it look more professional. It would however not make it as modular and easy to develop further.
+
+[Final build](https://github.com/lohant/temperatureandhumidity/blob/main/build.png)
