@@ -33,4 +33,7 @@ All parts were bought at Electrokit.com. I bought them as parts in a kit, but th
 I chose to use [Thonny](https://thonny.org/) as my IDE in this project. It is easy to use and have multiple functions that come in handy when programming microcontrollers in MicroPython.
 
 ## Putting everything together
+The circuit was connected according to the diagram shown. The image of the circuit is borrowed from [here](https://github.com/iot-lnu/applied-iot/tree/master/Raspberry%20Pi%20Pico%20(W)%20Micropython/sensor-examples/P5_DHT_11_DHT_22). The process of connecting the components is straight-forward and should be easy as long as the circuit is connected according to the diagram. Three pins are required for voltage, ground and data. The operating voltage of the sensor is 3.3V to 5.5V, I use the 3.3V pin on the Pico to power the sensor. Note that if another pin is used for data, adjustments to this must be done in measure.py. This setup is suited for development. If you were to use this in production, I would recommend that you solder the components together and design a suitable case. This case could be designed in CAD and 3D-printed.
 ![Circuit](https://github.com/lohant/temperatureandhumidity/blob/main/circuit.png)
+
+## Platform
