@@ -43,17 +43,22 @@ I chose to use the [Adafruit IO](https://io.adafruit.com/) platform. This platfo
 The code consists of multiple files. The main file, main.py, that contains the logic and then there are multiple files that handles specific functionality or contains sensitive information. 
 
 ### main.py
+Some of the parts of the code, and the reasoning behind it, is commented on below.
 
+
+Here you are able to set the frequency of the measurements. Be cautious to not set this too frequent as this will result in an unnecessary load on the Adafruit IO servers.
 ```
 # Frequency of updates, in seconds.
 FREQUENCY = 60
 ```
 
+The onboard led is turned on to indicate to you that the code actually is running.
 ```
 # Turning the onboard led on.
 led.on()
 ```
 
+The microcontroller connects to internet through WiFi, using the WiFi-credentials set in secrets.py.
 ```
 # Connecting to WiFi.
 try:
@@ -62,6 +67,7 @@ except KeyboardInterrupt:
     print("Keyboard interrupt")
 ```
 
+The main logic of the code. Appart from sending the measurements to the Adafruit Server, they are also printed.
 ```
 try:
     
