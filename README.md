@@ -1,9 +1,9 @@
 # Temperature and Humidity Station
 This repository contains the code and the instructions on how to build a temperature and humidity station that uploads the measurements to the cloud. This project was done as a part of my participation in an Applied IoT Course (1DT305) by Linnaeus University, Sweden. This project was undertaken in June 2023.
 
-####
-Name: Anton Holst
-Student ID: ah226ie
+
+##### Name: Anton Holst
+##### Student ID: ah226ie
 
 The estimated time required for this project is about 5 hours. This approximation is applicable to a person with prior knowledge of python and microcontrollers, as well as access to good example code for the sensor and technologies that are used in the project.
 
