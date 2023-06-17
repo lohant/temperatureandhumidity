@@ -22,7 +22,15 @@ All parts were bought at Electrokit.com. I bought them as parts in a kit, but th
 | Male-male jumper wires | Used to connect the components on the breadboard | SEK 49 |
 
 ## Computer setup
-I chose Thonny as my IDE in this project. The Pico is flashed with MicroPython. This is done by downloading the firmware 
 
 ### Flashing the Pico with MicroPython
 1. The firmware is downloaded from [here](https://micropython.org/download/rp2-pico-w/).
+2. The BOOTSEL button is then held down while the Pico is connected to the computer. This makes the Pico appear as an USB mass storage device on the computer.
+3. The downloaded firmware is then copied onto the Pico.
+4. Once the programming of the firmware is complete, the Pico automatically resets and is ready for use.
+
+### IDE
+I chose to use [Thonny](https://thonny.org/) as my IDE in this project. It is easy to use and have multiple functions that come in handy when programming microcontrollers in MicroPython.
+
+## Putting everything together
+
