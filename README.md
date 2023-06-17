@@ -88,3 +88,13 @@ finally:
     led.off()
     print("Disconnected")
 ```
+
+## Transmitting the data / connectivity
+The data is by default transmitted once a minute, this is however easy to adjust in the code. As I will be using this device inside of my home, I chose to connect the device to the internet through WiFi. The transport protocol used is MQTT, primarily due to seemless integration with Adafruit IO.
+
+## Presenting the data
+The data is visualized in a dashboard on the Adafruit IO platform. The dashboard is designed to illustrate current values as well as a history of the values in line graphs. Note that the extreme values in the line graphs are due to me exposing the sensor for unnatural situations (such as placing it in the fridge) to test it. The data is sent to the Adafruit server every minute by default, and the data is stored there for 30 days.
+
+![Dashboard](https://github.com/lohant/temperatureandhumidity/blob/main/dashboard.png)
+
+## Finalizing the design
