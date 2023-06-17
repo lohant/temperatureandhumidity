@@ -3,7 +3,6 @@ This repository contains the code and the instructions on how to build a tempera
 
 ####
 Name: Anton Holst
-####
 Student ID: ah226ie
 
 The estimated time required for this project is about 5 hours. This approximation is applicable to a person with prior knowledge of python and microcontrollers, as well as access to good example code for the sensor and technologies that are used in the project.
