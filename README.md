@@ -33,4 +33,4 @@ All parts were bought at Electrokit.com. I bought them as parts in a kit, but th
 I chose to use [Thonny](https://thonny.org/) as my IDE in this project. It is easy to use and have multiple functions that come in handy when programming microcontrollers in MicroPython.
 
 ## Putting everything together
-(https://github.com/lohant/temperatureandhumidity/blob/main/circuit.png)
+![Circuit](https://github.com/lohant/temperatureandhumidity/blob/main/circuit.png)
