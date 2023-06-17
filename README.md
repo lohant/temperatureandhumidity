@@ -11,10 +11,11 @@ I chose to build this project as I thought it sounded interesting and useful. Th
 
 ## Material
 
-| Part | Description | 
-| --- | --- |
-| 1x 41019114 Raspberry Pi Pico WH | The microcontroller that is running the code |
-| Breadboard | Used to conveniently connect components and sensors |
-| USB A to Micro USB cord | Used to connect the microcontroller to the computer to transfer code |
-| DHT11 Sensor | The sensor that measures the temperature and humidity |
-| Male-male jumper wires | Used to connect the components on the breadboard |
+| Part | Description | Price |
+| --- | --- | --- |
+| Raspberry Pi Pico WH | The microcontroller that is running the code | SEK 109 |
+| Breadboard | Used to conveniently connect components and sensors | SEK 69 |
+| USB A to Micro USB cord | Used to connect the microcontroller to the computer to transfer code | SEK 39 |
+| DHT11 Sensor | The sensor that measures the temperature and humidity | SEK 49 |
+| Male-male jumper wires | Used to connect the components on the breadboard | SEK 49 |
+
